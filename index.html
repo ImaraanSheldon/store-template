@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour My World</title>
+    <!-- Syne Font (start) -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+    </style>
+    <!-- Syne Font (End) -->
+    <!-- Bootstrap (start) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!-- Bootstrap (end) -->
+    <!-- Line-Awesome Link(start) -->
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <!-- Line-Awesome Link(end) -->
+    <!-- My Css (start) -->
+    <link id="stylesheet" rel="stylesheet" href="css/style.css">
+    <!-- My Css (end) -->
+</head>
+<body>
+  <section class="py-3 logo"id='nav'>
+    <div class="container-fluid row align-items-center">
+      <div class="col-sm-2 d-flex justify-content-center align-items-center">
+        <a href="#"><img class="ps rounded-circle" src="https://imaraansheldon.github.io/allImages/ColorMyWorld/Logo/ColourMyWorld_Parsley&Sage_2.png" alt="Parsley&Sage"></a>
+      </div>
+
+      <div class="col-sm-8 text-center d-sm-block d-none">
+        <h1 class="display-5 fw-bold">Colour My World</h1>
+      </div>
+    </div>
+  </section>
+    <nav class="py-0 navbar navbar-expand-lg bg-Nav">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav h5 mx-lg-4">
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="pages/products.html">Products</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="pages/cart.html">Cart</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="pages/about.html">About</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="pages/contact.html">Contact</a>
+              </li>
+              <li class="nav-item mx-lg-2">
+                <a class="nav-link" href="pages/admin.html">Admin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="neighbor-border px-4 py-3 mx-auto navbar-brand d-lg-block d-none" href="#">Login</a>
+
+        <a class="neighbor-border px-4 py-3 nika mx-auto navbar-brand d-lg-block d-none" href="#">Sign Up</a>
+      </nav>
+      
+    <main>
+        <section class="full-body hero">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+              <h4 class="display-2 text-uppercase fw-bolder text-md-start text-sm-center">Find a piece thats a part of you.</h4>
+              <button src="pages/products.html" class="shattered-hero-button me-md-auto">View Artwork</button>
+            </div>
+            <div class="col-md-1 col-sm-3"></div>
+            <div class="col-md-4 col-sm-6 py-3 mt-4 border-hero"><img src="https://imaraansheldon.github.io/allImages/ColorMyWorld/Expressivism/herInAfrica.jpg" alt="Hero"></div>
+            <div class="col-md-1 col-sm-3"></div>
+          </div>
+        </section>
+
+        <section class="full-body Featured">
+          <h2 class="pt-2 display-5">This Weeks Highlighted Pieces:</h2>
+          <div class="row g-2 p-2" id="container" data-container></div>
+        </section>
+
+        <section class="full-body featuredArtist">
+          <h2 class="pt-2 display-5">This Weeks Highlighted Artist:</h2>
+          <div class="row gy-2 p-2">
+            <div class="col-lg-1 sw-colour"></div>
+          <div class="col-lg-4 col-md-4 mihleImg"><img class="rounded-2" src="https://imaraansheldon.github.io/allImages/ColorMyWorld/Graphic_Design/MihleLingani_TheArtist.jpg" alt="mihleLingani"></div>
+          <div class="col-lg-6 col-md-8 d-flex flex-column justify-content-center align-items-start sw-colour">
+            <h2 class="display-5 align-self-center">Mihle Lingani</h2>
+            <p class="lead black-text">Born in October 2002. I attended Lady Grey Arts Academy in 2017, which as when I was introduced to Design. I spent about a year there learning key structures like design, colour theory and about great Designers & Artists of South Africa. My teacher and the outstanding designers we learnt about at that time greatly inspired me to continue being passionate about design. In 2018 I moved to Cape Town, which unfortunately meant I no longer do Design. Rather for the next 2 years I did Visual Arts at Voortrekker High School
+            <p>
+            <p class="lead black-text">-Graphic Designer, Artist.</p>
+          </div>
+          <div class="col-lg-1 sw-colour"></div>
+
+          <h1 class="col-12 pt-2">Artworks by Mihle Lingani</h1>
+
+          <div class="row g-2 p-2" id="container" data-artist></div>
+          <div class="col-lg-3 col-md-6"></div>
+
+        </section>
+
+        <section class="full-body theStory text-center">
+          <h1 class="display-2 fw-bold">THE STORY</h1>
+          <h3 class="p-5">"Colour My World: Parsley & Sage" is your one-stop destination for art enthusiasts seeking vibrant, unique pieces to elevate their spaces. Our online store offers a curated collection of artwork spanning various styles, from contemporary to abstract, all carefully crafted by talented artists. Whether you're looking to add a pop of color to your home or searching for that perfect statement piece, Colour My World: Parsley & Sage provides a seamless shopping experience, allowing you to explore and discover art that speaks to your individuality and creativity.</h2>
+        </section>
+
+        <div class="p-2 mx-3 d-flex align-items-center cart-pill" onclick="redirectToCart()">
+          <span counter></span>
+          <i class="las la-shopping-cart"></i>
+        </div>
+
+        <div id="artworkModals"></div>
+    </main>
+
+    <footer class="min-footer">
+      <div class="row p-5 pb-0">
+
+        <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <h5 class="fw-bold">INFORMATION</h3>
+            <h5>___</h5>
+            <p><a href="#nav">Pages</a></p><!--To navbar-->
+            <p><a href="pages/about.html">Our Team</a></p><!--To about-->
+            <p><a href="pages/products.html">Our Products</a></p><!--To products-->
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <h5 class="fw-bold">RESOURCES</h3>
+            <h5>___</h5>
+            <p><a href="#">Art Tutorials</a></p><!--Empty-->
+            <p><a href="#">Buying Guideds</a></p><!--Empty-->
+            <p><a href="pages/about.html">Community</a></p><!--To About-->
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <h5 class="fw-bold">HELP</h3>
+            <h5>___</h5>
+            <p><a href="pages/contact.html">Send Us An Email</a></p><!--To contact-->
+            <p><a href="#">Login</a></p><!--Empty-->
+            <p><a href="#">Sign Up</a></p><!--Empty-->
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <h5 class="fw-bold">CONTACT US</h3>
+            <h5>___</h5>
+            <p class="text-center"><a href="pages/contact.html">Contact us if you need help with ANYTHING</a></p>
+            <p>+27 420-911-6969</p>
+            <div class="socials">
+              <a href="https://facebook.com"><i class="lab la-facebook-square px-1"></i></a>
+              <a href="https://twitter.com"><i class="lab la-twitter-square px-1"></i></a>
+              <a href="https://instagram.com"><i class="lab la-instagram px-1"></i></a>
+            <a href="https://pinterest.com"><i class="lab la-pinterest-square px-1"></i></a>
+              </div>
+        </div>
+
+        <p class="col-12 pt-5 text-center"><span current-year></span>&copy;Colour My World, All Rights Reserved</p>
+
+      </div>
+    </footer>
+    <!-- Script References (start)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/code.js"></script>
+    <!-- Script References (end)-->
+</body>
+</html>
+
+<!-- Images
+  ColorMyWorld/Expressivism/herInAfrica.jpg
+  ColorMyWorld/Expressivism/nurAin.jpg
+  
+  ColorMyWorld/Impressionism/abandonedShip_GagikTadevosyan.jpg
+  ColorMyWorld/Impressionism/agedLight.jpg
+  ColorMyWorld/Impressionism/frenchSiesta_YuriKortov.jpg
+  ColorMyWorld/Impressionism/CatherineLaRose_YuriKortov.jpg
+  
+  ColorMyWorld/Logo/ColourMyWorld_Parsley&Sage.png
+  ColorMyWorld/Logo/ColourMyWorld_Parsley&Sage_2.png
+  ColorMyWorld/Logo/ColourMyWorld_Rosemary&Thyme.png
+  ColorMyWorld/Logo/ColourMyWorld_Rosemary&Thyme_2.png
+
+ColorMyWorld/Graphic_Design/MihleLingani_1.jpg
+ColorMyWorld/Graphic_Design/MihleLingani_2.jpg
+ColorMyWorld/Graphic_Design/MihleLingani_3.jpg
+ColorMyWorld/Graphic_Design/MihleLingani_4.jpg
+ColorMyWorld/Graphic_Design/MihleLingani_5.jpg
+ColorMyWorld/Graphic_Design/MihleLingani_TheArtist.jpg
+
+ColorMyWorld/Art/AcademiqueMorbide_ReneMargitte.jpg
+ColorMyWorld/Art/BlissRegression_AlexGardener_Perrotin.jpg
+ColorMyWorld/Art/EnjoyingTheRide_AlexGardener_Perrotin.jpg
+ColorMyWorld/Art/Jungle_AlexGardener_Perrotin.jpg
+
+ColorMyWorld/Nihon/Ado.jpg
+ColorMyWorld/Nihon/bigTree.jpg
+ColorMyWorld/Nihon/edoAmai.jpg
+ColorMyWorld/Nihon/puyo.jpg
+-->
